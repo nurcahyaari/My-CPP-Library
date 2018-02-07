@@ -17,7 +17,7 @@ class LinkList{
             return head == NULL;
         }
 
-        void AddF(int nilai){
+        void AddF(int nilai){ // for Adding data from front
             Node * help = new Node();
             help->data = nilai;
             help->next = NULL;
@@ -30,7 +30,7 @@ class LinkList{
             }
         }
 
-        void AddR(int nilai){
+        void AddR(int nilai){ // for Adding data from rear
             Node * help = new Node();
             help->data = nilai;
             help->next = NULL;
@@ -48,7 +48,7 @@ class LinkList{
             }
         }
 
-        void AddSP(int nilai, int p){
+        void AddSP(int nilai, int p){ // from adding data to specific position
             Node * help = new Node();
             help->data = nilai;
             help->next = NULL;
